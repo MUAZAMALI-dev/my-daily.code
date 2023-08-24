@@ -24,15 +24,33 @@
 // console.log("Area of Rectangle=", result); 
 
 
-// var convertCelsiusToFahrenheit= (tempC:number):number=>tempC*(9/5)+32;
-// var tempatureconversion:number=convertCelsiusToFahrenheit(25);
-// console.log("convertCelsiusToFahrenheit=", tempatureconversion+"");
+var convertCelsiusToFahrenheit= (tempC:number):number=>tempC*(9/5)+32;
+var tempatureconversion:number=convertCelsiusToFahrenheit(25);
+console.log("convertCelsiusToFahrenheit=", tempatureconversion+"");
 
 for(let i=1; i<=10;i++){
-console.log("2"+"*"+i+"= "+2*i);
-
+ console.log("2"+"*"+i+"= "+2*i);
 }
+ const n: number = 5; // Change this to the desired value of n
+ let sum: number=0;
 
+for (let i = 2; i <= n * 2; i += 2) {
+     sum += i;
+ }
+
+console.log(`The sum of the first ${n} even numbers is: ${sum}`);
+
+var number:number[]=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20.21]
+{
+    for(let i=0; i<number.length; i++)
+    {
+        if(number[i]%2==0){
+            console.log(number[i]);
+            
+        }
+    
+}
+}
 
 
 
